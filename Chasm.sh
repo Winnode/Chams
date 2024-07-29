@@ -61,4 +61,3 @@ docker run -d --restart=always --env-file ./.env -p 3001:3001 --name scout chasm
 echo "Chasm Scout sedang berjalan..."
 
 echo "Membersihkan..."
-rm -- "$0"
